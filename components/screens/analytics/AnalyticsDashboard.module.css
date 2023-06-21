@@ -1,0 +1,23 @@
+.analytics {
+    display: flex;
+    padding: 1rem 2rem;
+    gap: 10rem;
+}
+
+.barChart {
+    width: 53%;
+}
+
+.pieChart {
+    width: 30%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .analytics {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .barChart, .pieChart {
+        width: 100%;
+    }
+}

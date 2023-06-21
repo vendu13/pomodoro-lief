@@ -1,0 +1,13 @@
+.userProfile {
+    padding: 1rem 2rem;
+}
+
+.userProfileData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userProfileData img {
+    width: 7rem;
+}

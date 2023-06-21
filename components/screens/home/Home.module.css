@@ -1,0 +1,62 @@
+.homePage {
+    height: 100vh;
+    padding: 1rem 2rem;
+}
+
+.timerContainer {
+    display: flex;
+    flex:2;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.timeWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    color:#efefef;
+    background: #FFCA58;
+    font-size: 3.5rem;
+    box-shadow: 1rem 1.5rem 2rem rgba(0,0,0,0.6)
+}
+
+.pomodoroMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;}
+
+.pomodoroMain h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #766e6c;
+    margin: 2rem 0.7rem 0.7rem 0.7rem;
+}
+
+.task {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #766e6c;
+    margin: 0.5rem 0.7rem 1.5rem 0.7rem;
+}
+
+.pomodoroMain p {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #766e6c;
+}
+
+.modes {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding:.7rem .7rem;
+    background-color: #efefef;
+    border-radius: 2rem;
+}
