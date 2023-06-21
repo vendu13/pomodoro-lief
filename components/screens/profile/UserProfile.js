@@ -11,7 +11,7 @@ const UserProfile = () => {
       <h2>User Profile</h2>
       {user ? (
         <div className={styles.userProfileData}>
-          <Image src={user.picture} />
+          <Image alt="Image" src={user.picture} />
           <p>Welcome, {user.name}!</p>
           <p>Email: {user.email}</p>
         </div>
