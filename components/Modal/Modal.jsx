@@ -9,7 +9,7 @@ import {
   Layer,
   TextInput,
 } from "grommet";
-import Context from "../../context/Context.js";
+import Context from "../../Context";
 
 const Modal = ({ showModal, setShowModal, text }) => {
   const { taskData, addNewTask, updateTask, setUpdateTask, updateTaskData } =

@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import Moment from "moment";
 import { Box, Text, TextInput, Button, CheckBox, Select, Stack } from "grommet";
-import Context from "../../context/Context.js";
+import Context from "../../Context";
 
 const Task = (props) => {
   const {
