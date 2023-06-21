@@ -7,8 +7,6 @@ import {
   useMutation,
 } from "@apollo/client";
 
-import { Prisma } from "@prisma/client";
-
 export const client = new ApolloClient({
   uri: "https://localhost:3000/api/graphql",
   cache: new InMemoryCache(),

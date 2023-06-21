@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import Task from "../../Task/Task";
 import styles from "./Tasks.module.css";
 import { Box, Button } from "grommet";
-import Context from "@context/Context.js";
+import Context from "../../../context/Context.js";
 import Modal from "../../Modal/Modal";
 import { useUser } from "@auth0/nextjs-auth0/client";
 

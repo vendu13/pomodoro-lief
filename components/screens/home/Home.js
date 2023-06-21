@@ -4,7 +4,7 @@ import { Box, Button, Grommet, Notification } from "grommet";
 import theme from "../../../styles/theme";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import styles from "./Home.module.css";
-import Context from "../../../context/Context";
+import Context from "../../../context/Context.js";
 
 const GrommetWrapper = ({ children }) => {
   return <Grommet theme={theme}>{children}</Grommet>;
