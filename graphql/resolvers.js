@@ -1,4 +1,4 @@
-import Context from "../context/Context";
+import Context from "../Context";
 import { makeExecutableSchema } from "@graphql-tools/schema";
 import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
